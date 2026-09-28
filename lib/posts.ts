@@ -1,5 +1,6 @@
 export type Post = {
-slug: string;      // URLに使う文字（英数字）
+slug: string;      
+// URLに使う文字（英数字）
 title: string;
 date: string;
 body: string;

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPost } from "@/lib/posts";
+import { getPost } from "../../../lib/posts";
 export default async function PostPage({
 params,
 }: {
